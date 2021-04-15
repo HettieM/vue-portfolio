@@ -53,7 +53,7 @@
   height: 6vh;
   width: 100%;
   background-color: #FCF9F3;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
 }

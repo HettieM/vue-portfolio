@@ -22,7 +22,6 @@
   }
   .para {
     width: 75vw;
-    /* border: 1px solid black; */
     margin: 10px auto;
     text-align: justify;
   }
