@@ -25,7 +25,6 @@
   </div>
 
 </div>
-<!-- public/Hettie-McConnell-CV.pdf -->
 
 </template>
 
@@ -56,6 +55,7 @@
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .card-wrapper {
@@ -64,9 +64,8 @@
   height: 100%;
   position: fixed;
   top: 0;
-  bottom: 0;
   background-color: RGB(0, 0, 0, 0.65);
-  z-index: 1;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;

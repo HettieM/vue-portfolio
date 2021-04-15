@@ -27,6 +27,6 @@ export default {
   overflow: hidden;
   background-image: url('./assets/img/memoji2.png');
   background-color: rgba(252,249,243, 0.95);
-  background-blend-mode: lighten;
+  background-blend-mode:color;
 }
 </style>
