@@ -18,7 +18,7 @@
       <p class="name">Hettie McConnell</p>
       <p class="title">Full Stack JavaScript Software Engineer</p>
       <div class="row link-row justify-content-center">
-        <a class="link" target="_blank" href="https://uk.linkedin.com/in/hettie-mcconnell-b0589617b">LinkedIn</a>
+        <a class="link mr-4" target="_blank" href="https://uk.linkedin.com/in/hettie-mcconnell-b0589617b">LinkedIn</a>
         <a class="link" target="_blank" href="https://github.com/HettieM">GitHub</a>
       </div>
     </div>
@@ -50,7 +50,8 @@
 <style>
 .navbar {
   border-bottom: 1px solid black;
-  height: 7.5vh;
+  height: 6vh;
+  width: 100%;
   background-color: #FCF9F3;
   position: fixed;
   top: 0;
@@ -73,8 +74,10 @@
 
 .card {
   width: 70%;
+  max-width: 800px;
   height: 45%;
   padding: 3%;
+  background-color: #FCF9F3 !important;
 }
 
 p {
@@ -83,7 +86,7 @@ p {
 
 .name {
   font-size: 3rem;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .title {
@@ -94,12 +97,7 @@ p {
 .link-row {
   position: absolute;
   bottom: 5%;
-  margin: 0 auto;
-  width: 97%;
-}
-
-.link {
-  margin: 0 1%;
+  width: 94%;
 }
 
 </style>
