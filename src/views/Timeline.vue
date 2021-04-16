@@ -58,6 +58,7 @@
 <style>
   .timeline-wrapper {
     width: 100%;
+    margin-top: 10%;
   }
 
   .timeline {
@@ -68,12 +69,9 @@
   .item {
     text-align: justify;
     border-left: 5px solid RGB(177,237,232, 0.65) !important;
-    color: #413C58;
     max-width: 90%;
-  }
-
-  .year {
-    color: #FF9FC3;
+    background-color: rgb(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
   }
 
 </style>

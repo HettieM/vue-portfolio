@@ -57,8 +57,9 @@
     margin: 3% auto;
     padding: 1%;
     border: 0.1px solid grey;
-    background-color: #FCF9F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
   }
 
   svg {
