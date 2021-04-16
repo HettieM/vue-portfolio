@@ -140,10 +140,6 @@
 </template>
 
 <script>
-  export default {
-    data() {
-    }
-  }
 </script>
 
 <style>
@@ -152,17 +148,20 @@ h1 {
   font-size: 3rem;
   font-weight: 100;
   margin: 15vh auto 10vh auto;
+  color: white;
 }
 
 svg {
   height: 3em;
-  fill: #FF9FC3;
+  fill: white;
 }
 .tech-stack__list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(1px);
 }
 
 .tech-stack__list-item {
@@ -181,12 +180,12 @@ svg {
   line-height: 1.1;
   text-align: center;
   max-width: 4rem;
-  color: #413C58;
+  /* color: #413C58; */
+  color: white;
 }
 
 li {
   font-family: 'Quicksand', sans-serif;
-  color: var(--text-color);
   line-height: 2;
   text-align: center;
 }

@@ -17,12 +17,15 @@
 
 <style>
   .about-wrapper {
-    margin: 4em auto;
-    height: 92.5vh;
+    margin: 12% auto;
+    min-height: 90vh;
   }
   .para {
     width: 75vw;
     margin: 10px auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
     text-align: justify;
+    font-size: 1rem;
   }
 </style>

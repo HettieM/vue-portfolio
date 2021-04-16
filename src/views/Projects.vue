@@ -69,4 +69,7 @@ import projects from '../components/ProjectObject';
 </script>
 
 <style>
+  .project-page-wrapper {
+    margin-top: 10%;
+  }
 </style>
