@@ -1,24 +1,5 @@
-# portfolio
+# Personal Portfolio of Hettie McConnell
 
-## Project setup
-```
-npm install
-```
+Deployed at: [hettie-mcconnell.netlify](https://hettie-mcconnell.netlify.app/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/535b7c89-d52b-411d-af8f-75a562b3e04d/deploy-status)](https://app.netlify.com/sites/hettie-mcconnell/deploys)
