@@ -31,9 +31,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
+  min-height: 100vh;
+  width: 100vw;
   overflow: hidden;
-  background-image: url('./assets/img/leaves.jpeg');
+  background-image: url('./assets/img/hiking.jpeg');
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .nav-bar {

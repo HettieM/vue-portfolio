@@ -134,7 +134,7 @@
       </li>
     </ul>
 
-    <img src="../assets/img/memoji2.png" />
+    <!-- <img src="../assets/img/memoji2.png" /> -->
   </div>
 
 </template>
