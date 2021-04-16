@@ -70,8 +70,25 @@
     text-align: justify;
     border-left: 5px solid RGB(177,237,232, 0.65) !important;
     max-width: 90%;
+  }
+
+  .description-item {
     background-color: rgb(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
+    padding: 0 5px;;
+  }
+
+  .date-item {
+    background-color: rgb(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 5px 0 5px;
+  }
+  .title-item {
+    background-color: rgb(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    padding: 5px !important;
   }
 
 </style>
