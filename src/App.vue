@@ -37,6 +37,7 @@ export default {
   background-image: url('./assets/img/hiking.jpeg');
   background-attachment: fixed;
   background-size: cover;
+  background-position: center 0%;
 }
 
 .nav-bar {
