@@ -1,16 +1,18 @@
 <template>
   <div class="card-wrapper" @click="toggleCard(false)">
     <div class="card" @click="toggleCard(true)">
-      <div class="row contact-row justify-content-between">
-        <p class="telephone">+44 (0) 7910 1062754</p>
-        <p class="email">hettie.mcconnell@outlook.com</p>
+      <div class="contact-details list">
+        <p class="key">Name: </p>
+        <p class="value">Hettie McConnell</p>
+        <p class="key">Title: </p>
+        <p class="value">Full Stack JavaScript Developer</p>
+        <p class="key">Email: </p>
+        <p class="value">hettie.mcconnell@outlook.com</p>
+        <p class="key">Mobile: </p>
+        <p class="value">+44 (0) 7910 162754</p>
       </div>
-      <p class="name">Hettie McConnell</p>
-      <p class="title">Full Stack JavaScript Software Engineer</p>
-      <div class="row link-row justify-content-center">
-        <a class="link mr-4" target="_blank" href="https://uk.linkedin.com/in/hettie-mcconnell-b0589617b">LinkedIn</a>
-        <a class="link" target="_blank" href="https://github.com/HettieM">GitHub</a>
-      </div>
+      <a class="link" target="_blank" href="https://uk.linkedin.com/in/hettie-mcconnell-b0589617b">LinkedIn</a>
+      <a class="link" target="_blank" href="https://github.com/HettieM">GitHub</a>
     </div>
   </div>
 </template>
@@ -43,27 +45,35 @@
 
 .card {
   width: 70%;
-  max-width: 800px;
-  height: 45%;
+  max-width: 600px;
   padding: 3%;
   background-color: #FCF9F3 !important;
   color: black;
+  overflow: hidden;
 }
 
-.name {
-  font-size: 3rem;
-  margin-top: 3%;
+.key {
+  float: left;
+  width: 25%;
+  text-align: right;
+  font-weight: bold;
 }
 
-.title {
-  font-size: 1.5rem;
-  line-height: 0;
+.value{
+  float: right;
+  width: 70%;
+  text-align: right;
 }
 
-.link-row {
-  position: absolute;
-  bottom: 5%;
-  width: 94%;
+.link {
+  text-align: center;
+  color: navy;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: pink;
+  transform: scale(1.2);;
 }
 
 </style>
