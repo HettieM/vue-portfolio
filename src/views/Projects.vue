@@ -22,6 +22,13 @@ import projects from '../components/ProjectObject';
     data() {
       return {
         projectObjects: [
+          {
+            name: 'Top Trumps - Star Wars',
+            bio: 'A classic Top Trumps game built using the Star Wars API, modified to work with GraphQL',
+            techStack: 'React.js, Apollo, GraphQL, Git, GitHub, Netlify',
+            link: 'https://gallant-hermann-668d4d.netlify.app/',
+            github: 'https://github.com/HettieM/star-wars-top-trumps',
+          },
           { 
             name: 'Teach a Man to Fish: Enterprise Adventures',
             bio: 'Developing the School Enterprise Challenge into a single person mission that teaches students entrepreneurial skills. MVP allows individuals to access guidelines and upload evidence of progression',
